@@ -15,7 +15,7 @@ fclose(fid);
 
 %Convert to double precision matrix
 for ii = 1:20
-    rawMS(:,ii) = double(data{1,ii}); %#ok no large computational savings here
+    rawMS(:,ii) = double(data{1,ii}); %#ok
 end
 
 %linearise the matrix
